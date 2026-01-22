@@ -1,8 +1,8 @@
 function TranslationRow({ en, lv }) {
   return (
     <tr>
-      <td>{en}</td>
-      <td>{lv}</td>
+      <td style={{ color: 'blue' }}>{en}</td>
+      <td style={{ color: 'blue' }}>{lv}</td>
     </tr>
   );
 }

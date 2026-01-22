@@ -1,13 +1,20 @@
 import TranslationRow from "./TranslationRow";
 
 const translations = [
-  { en: "Feature", lv: "Funkcionalitāte" },
+  { en: "Feature", lv: "Funkcionālā iezīme" },
   { en: "Scenario", lv: "Scenārijs" },
-  { en: "Given", lv: "Ja" },
-  { en: "When", lv: "Kad" },
+  { en: "Given", lv: "Kad" },
+  { en: "When", lv: "Ja" },
   { en: "Then", lv: "Tad" },
   { en: "And", lv: "Un" },
+  { en: "Or", lv: "Vai" },
   { en: "But", lv: "Bet" },
+  { en: "Backround", lv: "Kontekts" },
+  { en: "Rule", lv: "Noteikums" },
+  { en: "Scenario Outline", lv: "Scenārija paraugs" },
+  { en: "Examples", lv: "Piemēri" },
+  { en: "User story", lv: "Lietotājstāsts" },
+  
 ];
 
 function Translations() {
